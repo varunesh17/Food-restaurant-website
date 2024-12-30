@@ -1,0 +1,368 @@
+
+
+.heading{
+    text-align: center;
+ 
+}
+
+.heading2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-align: center;
+    color: black;
+}
+
+.font-script{
+font-weight:bold;
+font-size:large;
+
+}
+.font-bold{
+   font: size 500px;
+  
+}
+
+.font-effect-anaglyph{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+
+
+body {
+    background-color: #111; 
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+.brand-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    color: #c6a87d;
+}
+.slogan {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff; 
+    letter-spacing: 2px;
+}
+.nav-item nav-link{
+    color:#fff
+}
+
+
+ .login-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color:grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+  color:black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-container input {
+  margin-bottom: 15px;
+}
+
+.login-container .login-btn {
+  background-color: white;
+  color:black; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+.login-container .login-btn:hover {
+  background-color: lightgrey; 
+  color: black; 
+}
+
+.form-check-label {
+  color: white;
+}
+
+.form-check-input {
+  color: white;
+}
+
+
+
+    
+.menu-item {
+ 
+    padding: 10px;
+  
+}
+
+.menu-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+
+    
+}
+.picture {
+  background-image: url('images/bg_3.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content:start;
+  align-items: center; 
+}
+
+ 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-align: center;
+    
+}
+.font-script {
+    font-family: 'Great Vibes', cursive;
+    font-size:50px;
+    
+    color: #f6bb68;
+}
+.font-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #333;
+}
+.contact-info {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #c6a87d;
+}
+.info-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.text-styling {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.script-text {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 2rem; 
+    font-weight: 400;
+    color: #c5a880;
+}
+
+.bold-text {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2rem; 
+    font-weight: 700; 
+    color: #333; 
+}
+
+
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } 
+
+
+  body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.price {
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border-color: #b89b6d;
+    color: #b89b6d;
+
+}
+
+.btn-outline-primary:hover {
+    background-color: #b89b6d;
+    color: #fff;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .testimonials h2 {
+    font-size: 70px;
+  }
+  
+  .testimonials h2 span.text-muted {
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    color: #d1b280;
+  }
+  
+  .testimonial-item {
+    text-align: center;
+  }
+  
+  .testimonial-item .image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .testimonial-item .image-wrapper img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-item .quote-icon {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    font-size: 2rem;
+    color: #d1b280;
+  }
+
+  
+
+.login-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  z-index: 999;
+}
+
+
+
+ .footer {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    padding: 40px 0;
+    background-color: ;
+  }
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer ul li {
+    margin: bottom 0.8rem;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer i {
+    font-size: 1.2rem;
+  }  
+ 
+
+
+
+
+
+
+
+  .footer {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+} 
+
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} 
+
+.content {
+  min-height: calc(150vh - 160px);
+}
+
+.footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
