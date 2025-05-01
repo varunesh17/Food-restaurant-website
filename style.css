@@ -344,6 +344,31 @@ body {
 .footer a:hover {
     text-decoration: underline;
 } 
+
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} 
+
+.content {
+  min-height: calc(150vh - 160px);
+}
+
+.footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
 .card {
   border: none;
   border-radius: 10px;
@@ -407,26 +432,4 @@ body {
   color: #6c757d;
   margin-bottom: 1rem;
   transition: color 0.3s ease;
-}
-
-
-
-
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-} 
-
-.content {
-  min-height: calc(150vh - 160px);
-}
-
-.footer {
-  background-color: #2d2d2d;
-  color: white;
-  padding: 20px 0;
-  position: relative;
-  width: 100%;
-  bottom: 0;
 }
